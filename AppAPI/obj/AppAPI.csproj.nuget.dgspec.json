@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppAPI\\AppAPI.csproj": {}
+    "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj": {}
   },
   "projects": {
-    "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppAPI\\AppAPI.csproj": {
+    "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppAPI\\AppAPI.csproj",
+        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj",
         "projectName": "AppAPI",
-        "projectPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppAPI\\AppAPI.csproj",
-        "packagesPath": "C:\\Users\\tri23\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppAPI\\obj\\",
+        "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj",
+        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
+        "outputPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tri23\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\AppData.csproj": {
-                "projectPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\AppData.csproj"
+              "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj": {
+                "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj"
               }
             }
           }
@@ -88,25 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\AppData.csproj": {
+    "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\AppData.csproj",
+        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj",
         "projectName": "AppData",
-        "projectPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\AppData.csproj",
-        "packagesPath": "C:\\Users\\tri23\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\obj\\",
+        "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj",
+        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
+        "outputPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tri23\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,7 +105,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -169,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

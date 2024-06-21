@@ -1,81 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\",
+  "WorkspaceRootPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240617081321_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppData\\Migrations\\20240617081321_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\huykhoi\\cs\\datn_upgit\\up_git\\appdata\\migrations\\20240617081321_tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\migrations\\20240617081321_tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\context\\tstoredb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\context\\tstoredb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\context\\tstoredb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\voucherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\voucherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\voucherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\billconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\billconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\billconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\billdetailconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\billdetailconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\billdetailconfiguraiton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppData\\Migrations\\20240613131346_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppData\\Migrations\\20240613131249_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppData\\Migrations\\20240613130505_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\productdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\productdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\productdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\paymentmethodconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\paymentmethodconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\paymentmethodconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\newsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\newsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\newsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\imageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\imageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\imageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\cartdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\cartdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\cartdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\datn\\datn\\doanfpoly_tstore\\appdata\\configurations\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\appdata\\configurations\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\configurations\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,17 +83,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "20240617081321_Tri01.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240617081321_Tri01.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Migrations\\20240617081321_Tri01.cs",
               "RelativeDocumentMoniker": "AppData\\Migrations\\20240617081321_Tri01.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240617081321_Tri01.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Migrations\\20240617081321_Tri01.cs",
               "RelativeToolTip": "AppData\\Migrations\\20240617081321_Tri01.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T08:13:22.44Z",
               "EditorCaption": ""
@@ -105,52 +122,45 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Account.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\Account.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\Account.cs",
               "RelativeDocumentMoniker": "AppData\\Models\\Account.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\Account.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\Account.cs",
               "RelativeToolTip": "AppData\\Models\\Account.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowB4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T08:10:48.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-06-17T08:10:48.892Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TStoreDb.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Context\\TStoreDb.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Context\\TStoreDb.cs",
               "RelativeDocumentMoniker": "AppData\\Context\\TStoreDb.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Context\\TStoreDb.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Context\\TStoreDb.cs",
               "RelativeToolTip": "AppData\\Context\\TStoreDb.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAywDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:55:54.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T12:55:54.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AccountConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\AccountConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\AccountConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\AccountConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\AccountConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\AccountConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\AccountConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:10:47.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T12:10:47.704Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "BillConfiguraiton.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\BillConfiguraiton.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\BillConfiguraiton.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\BillConfiguraiton.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\BillConfiguraiton.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\BillConfiguraiton.cs",
               "RelativeToolTip": "AppData\\Configurations\\BillConfiguraiton.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,35 +170,33 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "VoucherConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\VoucherConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\VoucherConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\VoucherConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\VoucherConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\VoucherConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\VoucherConfiguration.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:52:37.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T12:52:37.645Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Voucher.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\Voucher.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\Voucher.cs",
               "RelativeDocumentMoniker": "AppData\\Models\\Voucher.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\Voucher.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\Voucher.cs",
               "RelativeToolTip": "AppData\\Models\\Voucher.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T13:15:44.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T13:15:44.189Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BillDetailConfiguraiton.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\BillDetailConfiguraiton.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\BillDetailConfiguraiton.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\BillDetailConfiguraiton.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\BillDetailConfiguraiton.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\BillDetailConfiguraiton.cs",
               "RelativeToolTip": "AppData\\Configurations\\BillDetailConfiguraiton.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,9 +207,9 @@
               "DocumentIndex": 9,
               "Title": "20240613131346_Tri01.cs",
               "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs",
-              "RelativeDocumentMoniker": "AppData\\Migrations\\20240613131346_Tri01.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs",
               "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs",
-              "RelativeToolTip": "AppData\\Migrations\\20240613131346_Tri01.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131346_Tri01.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T13:13:46.719Z"
@@ -211,9 +219,9 @@
               "DocumentIndex": 10,
               "Title": "20240613131249_Tri01.cs",
               "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs",
-              "RelativeDocumentMoniker": "AppData\\Migrations\\20240613131249_Tri01.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs",
               "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs",
-              "RelativeToolTip": "AppData\\Migrations\\20240613131249_Tri01.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613131249_Tri01.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T13:12:49.642Z"
@@ -222,9 +230,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ProductDetail.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\ProductDetail.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\ProductDetail.cs",
               "RelativeDocumentMoniker": "AppData\\Models\\ProductDetail.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Models\\ProductDetail.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Models\\ProductDetail.cs",
               "RelativeToolTip": "AppData\\Models\\ProductDetail.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAIwB8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,9 +243,9 @@
               "DocumentIndex": 11,
               "Title": "20240613130505_Tri01.cs",
               "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs",
-              "RelativeDocumentMoniker": "AppData\\Migrations\\20240613130505_Tri01.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs",
               "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs",
-              "RelativeToolTip": "AppData\\Migrations\\20240613130505_Tri01.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Migrations\\20240613130505_Tri01.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T13:05:05.801Z"
@@ -246,9 +254,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ProductDetailConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\ProductDetailConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\ProductDetailConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\ProductDetailConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\ProductDetailConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\ProductDetailConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\ProductDetailConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -258,9 +266,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "PaymentMethodConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\PaymentMethodConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\PaymentMethodConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\PaymentMethodConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\PaymentMethodConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\PaymentMethodConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\PaymentMethodConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,9 +278,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "NewsConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\NewsConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\NewsConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\NewsConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\NewsConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\NewsConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\NewsConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -282,9 +290,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ImageConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\ImageConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\ImageConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\ImageConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\ImageConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\ImageConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\ImageConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -294,9 +302,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CartDetailConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\CartDetailConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\CartDetailConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\CartDetailConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\CartDetailConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\CartDetailConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\CartDetailConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -306,9 +314,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "CartConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\CartConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\CartConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\CartConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\CartConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\CartConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\CartConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -318,13 +326,23 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "AddressConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\AddressConfiguration.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\AddressConfiguration.cs",
               "RelativeDocumentMoniker": "AppData\\Configurations\\AddressConfiguration.cs",
-              "ToolTip": "D:\\DATN\\DATN\\DoAnFPoly_TStore\\AppData\\Configurations\\AddressConfiguration.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\Configurations\\AddressConfiguration.cs",
               "RelativeToolTip": "AppData\\Configurations\\AddressConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T12:18:38.396Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

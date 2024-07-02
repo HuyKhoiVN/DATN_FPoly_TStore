@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj": {}
+    "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj": {}
   },
   "projects": {
-    "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj": {
+    "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj",
+        "projectUniqueName": "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj",
         "projectName": "AppData",
-        "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj",
-        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\obj\\",
+        "projectPath": "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj",
+        "packagesPath": "C:\\Users\\tri23\\.nuget\\packages\\",
+        "outputPath": "D:\\DATN\\DATN_Git\\AppData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tri23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8259,19 +8259,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\khoit\\.nuget\\packages\\": {}
+    "C:\\Users\\tri23\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppView\\AppView.csproj",
+      "projectUniqueName": "D:\\DATN\\DATN_Git\\AppView\\AppView.csproj",
       "projectName": "AppView",
-      "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppView\\AppView.csproj",
-      "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
-      "outputPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppView\\obj\\",
+      "projectPath": "D:\\DATN\\DATN_Git\\AppView\\AppView.csproj",
+      "packagesPath": "C:\\Users\\tri23\\.nuget\\packages\\",
+      "outputPath": "D:\\DATN\\DATN_Git\\AppView\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tri23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8279,17 +8284,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj": {
-              "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppAPI\\AppAPI.csproj"
+            "D:\\DATN\\DATN_Git\\AppAPI\\AppAPI.csproj": {
+              "projectPath": "D:\\DATN\\DATN_Git\\AppAPI\\AppAPI.csproj"
             },
-            "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj": {
-              "projectPath": "D:\\HuyKhoi\\CS\\DATN_upgit\\Up_Git\\AppData\\AppData.csproj"
+            "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj": {
+              "projectPath": "D:\\DATN\\DATN_Git\\AppData\\AppData.csproj"
             }
           }
         }
@@ -8347,7 +8353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

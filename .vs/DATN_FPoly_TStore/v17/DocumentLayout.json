@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "AppAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "AppAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T05:31:21.57Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -52,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T05:31:21.57Z",
+              "EditorCaption": ""
             }
           ]
         },

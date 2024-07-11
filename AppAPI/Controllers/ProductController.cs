@@ -52,7 +52,7 @@ namespace AppAPI.Controllers
             return false;
         }
 
-        [HttpDelete("delete-product")]
+        /*[HttpDelete("delete-product")]
         public bool DeleteProduct(Guid id)
         {
             var product = _context.Products.FirstOrDefault(p => p.Id == id);
@@ -61,18 +61,18 @@ namespace AppAPI.Controllers
                 return _crud.DeleteItem(product);
             }
             return false;
-        }
+        }*/
 
-        /*[HttpPut("soft-delete")]
+        [HttpPut("soft-delete-product")]
         public bool SoftDeleteProduct(Guid id)
         {
             var product = _context.Products.FirstOrDefault(x => x.Id == id);
-            if(product != null)
+            if (product != null)
             {
                 product.Status = false;
                 return _crud.UpdateItem(product);
             }
             return false;
-        }*/
+        }
     }
 }

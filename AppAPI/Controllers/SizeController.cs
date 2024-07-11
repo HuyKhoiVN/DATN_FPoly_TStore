@@ -47,7 +47,7 @@ namespace AppAPI.Controllers
             return false;
         }
 
-        [HttpDelete("delete-size")]
+        /*[HttpDelete("delete-size")]
         public bool Deletesize(Guid id)
         {
             var size = _context.Sizes.FirstOrDefault(p => p.Id == id);
@@ -56,18 +56,18 @@ namespace AppAPI.Controllers
                 return _crud.DeleteItem(size);
             }
             return false;
-        }
+        }*/
 
-        /*[HttpPut("soft-delete")]
+        [HttpPut("soft-delete")]
         public bool SoftDeletesize(Guid id)
         {
-            var size = _context.sizes.FirstOrDefault(x => x.Id == id);
-            if(size != null)
+            var size = _context.Sizes.FirstOrDefault(x => x.Id == id);
+            if (size != null)
             {
                 size.Status = false;
                 return _crud.UpdateItem(size);
             }
             return false;
-        }*/
+        }
     }
 }

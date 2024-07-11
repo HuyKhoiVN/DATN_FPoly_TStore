@@ -36,10 +36,8 @@ namespace AppAPI.Controllers
             billDetail.Id = new Guid();
 
             billDetail.IdProductDetail = idProductDetail;
-            billDetail.ProductDetail = _context.ProductDetails.FirstOrDefault(p => p.Id == idProductDetail);
 
             billDetail.IdBill = idBill;
-            billDetail.Bill = _context.Bills.FirstOrDefault(p => p.Id == idBill);
             billDetail.Amount = amount;
             billDetail.Price = price;
             billDetail.Discount = discount;
@@ -56,10 +54,7 @@ namespace AppAPI.Controllers
             if (billDetail != null)
             {
                 billDetail.IdProductDetail = idProductDetail;
-                billDetail.ProductDetail = _context.ProductDetails.FirstOrDefault(p => p.Id == idProductDetail);
-
                 billDetail.IdBill = idBill;
-                billDetail.Bill = _context.Bills.FirstOrDefault(p => p.Id == idBill);
                 billDetail.Amount = amount;
                 billDetail.Price = price;
                 billDetail.Discount = discount;
@@ -69,13 +64,25 @@ namespace AppAPI.Controllers
             return false;
         }
 
-        [HttpDelete("delete-billDetail")]
+        /*[HttpDelete("delete-billDetail")]
         public bool DeleteBillDetail(Guid id)
         {
             var billDetail = _context.BillDetails.FirstOrDefault(b => b.Id == id);
             if(billDetail != null)
             {
                 return _crud.DeleteItem(billDetail);
+            }
+            return false;
+        }*/
+
+        [HttpPut("soft-delete-billDetail")]
+        public bool SoftDeleteBillDetail(Guid id)
+        {
+            var billDetail = _context.BillDetails.FirstOrDefault(x => x.Id == id);
+            if (billDetail != null)
+            {
+                billDetail.Status = false;
+                return _crud.UpdateItem(billDetail);
             }
             return false;
         }

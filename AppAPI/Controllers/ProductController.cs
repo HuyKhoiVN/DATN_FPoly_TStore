@@ -28,12 +28,14 @@ namespace AppAPI.Controllers
         public bool CreateProduct(string name, string code)
         {
             Product product = new Product();
+
             product.Id = Guid.NewGuid();
             product.Name = name;
             product.Code = code;
             product.CreatedDate = DateTime.Now;
             product.ModifiledDate = DateTime.Now;
             product.Status = true;
+
             return _crud.CreateItem(product);
         }
 

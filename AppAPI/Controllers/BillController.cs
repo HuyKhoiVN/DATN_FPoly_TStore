@@ -31,6 +31,7 @@ namespace AppAPI.Controllers
             bool paymentStatus, string createBy, string updateBy)
         {
             Bill bill = new Bill();
+
             bill.Id = Guid.NewGuid();
             bill.Code = code;
             bill.IdAccount = idAccount;

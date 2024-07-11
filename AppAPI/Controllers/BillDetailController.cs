@@ -33,10 +33,9 @@ namespace AppAPI.Controllers
         public bool CreateBillDetail(Guid idProductDetail, Guid idBill, int amount, decimal price, decimal discount)
         {
             var billDetail = new BillDetail();
+
             billDetail.Id = new Guid();
-
             billDetail.IdProductDetail = idProductDetail;
-
             billDetail.IdBill = idBill;
             billDetail.Amount = amount;
             billDetail.Price = price;

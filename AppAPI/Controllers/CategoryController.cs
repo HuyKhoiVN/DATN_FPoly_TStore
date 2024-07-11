@@ -28,12 +28,14 @@ namespace AppAPI.Controllers
         public bool CreateCategory(string name, string description)
         {
             Category category = new Category();
+
             category.Id = Guid.NewGuid();
             category.Name = name;
             category.Description = description;
             category.CreatedDate = DateTime.Now;
             category.ModifiledDate = DateTime.Now;
             category.Status = true;
+
             return _crud.CreateItem(category);
         }
 

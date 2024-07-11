@@ -28,9 +28,11 @@ namespace AppAPI.Controllers
         public bool CreateSize(string name)
         {
             Size size = new Size();
+
             size.Id = Guid.NewGuid();
             size.SizeName = name;
             size.Status = true;
+
             return _crud.CreateItem(size);
         }
 

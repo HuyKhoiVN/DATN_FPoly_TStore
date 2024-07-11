@@ -28,10 +28,12 @@ namespace AppAPI.Controllers
         public bool Create(string name, string address)
         {
             Producer pro = new Producer();
+
             pro.Id = Guid.NewGuid();
             pro.Name = name;
             pro.Address = address;
             pro.Status = true;
+
             return _crud.CreateItem(pro);
         }
 
@@ -50,7 +52,7 @@ namespace AppAPI.Controllers
             return false;
         }
 
-        [HttpDelete]
+        /*[HttpDelete]
         public bool Delete(Guid id)
         {
             var pro = _context.Producers.FirstOrDefault(y => y.Id == id);
@@ -59,7 +61,18 @@ namespace AppAPI.Controllers
                 return _crud.DeleteItem(pro);
             }
             return false;
-        }
+        }*/
 
+        [HttpPut]
+        public bool SoftDelte(Guid id)
+        {
+            var pro = _context.Producers.FirstOrDefault(y => y.Id == id);
+            if (pro != null)
+            {
+                pro.Status = false;
+                return _crud.UpdateItem(pro);
+            }
+            return false;
+        }
     }
 }

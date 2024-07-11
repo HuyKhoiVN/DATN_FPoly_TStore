@@ -24,12 +24,14 @@ namespace AppAPI.Controllers
             return _crud.GetAllItems().ToList();
         }
 
+        [HttpPost("create-new-bills")]
         public bool CreateNewBill(int code, Guid idAccount, Guid idPaymentMethod, decimal shipFee, 
             string phoneNumber, string address, decimal totalMoney, decimal moneyReduce, 
              DateTime shipmentDate, DateTime paymentDate, 
             bool paymentStatus, string createBy, string updateBy)
         {
             Bill bill = new Bill();
+
             bill.Id = Guid.NewGuid();
             bill.Code = code;
             bill.IdAccount = idAccount;
@@ -46,12 +48,11 @@ namespace AppAPI.Controllers
             bill.CreateBy = createBy;
             bill.UpdateBy = updateBy;
             bill.Status = true;
-            bill.Account = _context.Accounts.FirstOrDefault(a => a.Id == idAccount);
-            bill.PaymentMethod = _context.PaymentMethods.FirstOrDefault(p => p.Id == idPaymentMethod);
 
             return _crud.CreateItem(bill);
         }
-    
+
+        [HttpPut("update-bill")]
         public bool UpdateBill(Guid id, int code, Guid idAccount, Guid idPaymentMethod, decimal shipFee,
             string phoneNumber, string address, decimal totalMoney, decimal moneyReduce, DateTime shipmentDate, 
             DateTime paymentDate, bool paymentStatus, string createdBy, string updateBy, bool status)
@@ -73,20 +74,31 @@ namespace AppAPI.Controllers
                 bill.CreateBy = createdBy;
                 bill.UpdateBy = updateBy;  
                 bill.Status = status;
-                bill.Account = _context.Accounts.FirstOrDefault(a => a.Id == idAccount);
-                bill.PaymentMethod = _context.PaymentMethods.FirstOrDefault(a => a.Id == idPaymentMethod);
 
                 return _crud.UpdateItem(bill);
             }
             return false;
         }
-    
+
+        /*[HttpDelete("delete-bill")]
         public bool DeleteBill(Guid id)
         {
             var bill = _context.Bills.FirstOrDefault(b => b.Id == id);
             if(bill != null)
             {
                 return _crud.DeleteItem(bill);
+            }
+            return false;
+        }*/
+
+        [HttpPut("soft-delete-bill")]
+        public bool SoftDeleteBill(Guid id)
+        {
+            var bill = _context.Bills.FirstOrDefault(b => b.Id == id);
+            if(bill != null)
+            {
+                bill.Status = false;
+                return _crud.UpdateItem(bill);
             }
             return false;
         }

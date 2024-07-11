@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\up_git\\datn_fpoly_tstore\\appapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\up_git\\datn_fpoly_tstore\\appapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\up_git\\datn_fpoly_tstore\\appapi\\controllers\\billdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\controllers\\billdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\up_git\\datn_fpoly_tstore\\appapi\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "AppAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "AppAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T05:31:21.57Z",
+              "WhenOpened": "2024-07-11T12:04:37.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillDetailController.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\BillDetailController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\BillDetailController.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\BillDetailController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\BillDetailController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwCUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:04:05.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\BillController.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\BillController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\BillController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:03:06.153Z",
               "EditorCaption": ""
             },
             {
@@ -52,6 +90,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T05:31:21.57Z",
+              "EditorCaption": ""
             }
           ]
         },

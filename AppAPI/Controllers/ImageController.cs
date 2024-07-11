@@ -30,10 +30,12 @@ namespace AppAPI.Controllers
         public bool CreateImage(string imageUrl, Guid idproductdetail)
         {
             Image image = new Image();
+
             image.Id = Guid.NewGuid();
             image.ImageUrl = imageUrl;
             image.Status = true;
             image.IdPorductDetail = idproductdetail;
+
             return _crud.CreateItem(image);
         }
  

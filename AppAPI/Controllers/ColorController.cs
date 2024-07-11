@@ -16,6 +16,7 @@ namespace AppAPI.Controllers
         public ColorController()
         {
             CRUDApi<Color> crud = new CRUDApi<Color>(_context, _context.Colors);
+            _crud = crud;
         }
         [HttpGet("get-all-color")]
         public IEnumerable<Color> GetColors()
@@ -24,12 +25,13 @@ namespace AppAPI.Controllers
         }
 
         [HttpPost("creat-color")]
-        public bool CreateColor(string name)
+        public bool CreateColor(string colorName, bool status)
         {
             Color color = new Color();
             color.Id = Guid.NewGuid();
-            color.ColorName = name;
-            color.Status = true;
+            color.ColorName = colorName;
+            color.Status = status;
+
             return _crud.CreateItem(color);
         }
 
@@ -45,5 +47,17 @@ namespace AppAPI.Controllers
             }
             return false;
         }
+        [HttpPut("soft-delete")]
+        public bool SoftDeleteColor(Guid id)
+        {
+            var color = _context.Colors.FirstOrDefault(c => c.Id == id);
+            if (color != null)
+            {
+                color.Status = false;
+                return _crud.UpdateItem(color);
+            }
+            return false;
+        }
+
     }
 }

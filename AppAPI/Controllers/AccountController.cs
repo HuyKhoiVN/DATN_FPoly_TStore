@@ -29,12 +29,12 @@ namespace AppAPI.Controllers
         [Route("Register")]
         [HttpPost]
 
-        public bool CreateAccount(Guid id, string name, string password, Guid Idrole, DateTime Dob, string email, bool gender, DateTime CreatedDate, bool status)
+        public bool CreateAccount( string name, string password, Guid Idrole, DateTime Dob, string email, bool gender, DateTime CreatedDate, bool status)
         {
 
             Account account = new Account();
 
-            account.Id = new Guid();
+            account.Id = Guid.NewGuid();
             account.CreatedDate = DateTime.Now;
             account.Status = status;
             var CheckRole = _context.Roles.Count();

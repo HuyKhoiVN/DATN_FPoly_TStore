@@ -18,13 +18,13 @@ namespace AppAPI.Controllers
             _crud = crud;
         }
 
-        [HttpGet]
+        [HttpGet("get")]
         public IEnumerable<Producer> GetImages()
         {
             return _crud.GetAllItems().ToList();
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public bool Create(string name, string address)
         {
             Producer pro = new Producer();
@@ -38,7 +38,7 @@ namespace AppAPI.Controllers
         }
 
 
-        [HttpPut]
+        [HttpPut("update")]
         public bool Update(Guid id, string name, string address, bool status)
         {
             var pro = _context.Producers.FirstOrDefault(x => x.Id == id);
@@ -63,7 +63,7 @@ namespace AppAPI.Controllers
             return false;
         }*/
 
-        [HttpPut]
+        [HttpPut("soft-delete")]
         public bool SoftDelte(Guid id)
         {
             var pro = _context.Producers.FirstOrDefault(y => y.Id == id);

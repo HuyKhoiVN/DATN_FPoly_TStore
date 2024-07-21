@@ -25,24 +25,23 @@ namespace AppAPI.Controllers
         }
 
         [HttpPost("creat-color")]
-        public bool CreateColor(string colorName, bool status)
+        public bool CreateColor(string colorName)
         {
             Color color = new Color();
             color.Id = Guid.NewGuid();
             color.ColorName = colorName;
-            color.Status = status;
+            color.Status = true;
 
             return _crud.CreateItem(color);
         }
 
         [HttpPut("update-color")]
-        public bool UpdateColor(Guid id, string name, bool status)
+        public bool UpdateColor(Guid id, string name)
         {
             var color = _context.Colors.FirstOrDefault(p => p.Id == id);
             if (color == null)
             {
                 color.ColorName = name;
-                color.Status = status;
                 return _crud.UpdateItem(color);
             }
             return false;

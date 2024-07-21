@@ -18,19 +18,26 @@ namespace AppAPI.Controllers
             CRUDApi<ProductDetail> crud = new CRUDApi<ProductDetail>(_context, _context.ProductDetails);
             _crud = crud;
         }
+
         [HttpGet("get-all-productdetail")]
+
         public IEnumerable<ProductDetail> GetProductDetails()
         {
             return _crud.GetAllItems().ToList();
         }
+
         [HttpGet("get-ProductDetail-byIdproduct")]
+
         public IEnumerable<ProductDetail> GetProductDetailByProductId(Guid idProduct)
         {
             var productDetail = _context.ProductDetails.Where(b => b.IdProduct == idProduct);
             return productDetail.ToList();
         }
-        public bool CreateProductDetail(Guid idSize, Guid idColor, Guid idProductCategory, Guid idProducer, Guid idProduct, decimal Price,
-            int Quantity, string Rating, string Name, string Description, DateTime CreatedDate, DateTime ModifiledDate, bool Status)
+
+        [HttpPost("Create")]
+
+        public bool CreateProductDetail(Guid idSize, Guid idColor, Guid idProductCategory, Guid idProducer, Guid idProduct, decimal price,
+            int quantity, string rating, string name, string description)
         {
             var prddt = new ProductDetail();
 
@@ -40,21 +47,21 @@ namespace AppAPI.Controllers
             prddt.IdColor = idColor;
             prddt.IdProductCategory = idProductCategory;
             prddt.IdProducer = idProducer;
-            prddt.Price = Price;
-            prddt.Quantity = Quantity;
-            prddt.Rating = Rating;
-            prddt.Name = Name;
-            prddt.Description = Description;
-            prddt.CreatedDate = CreatedDate;
-            prddt.ModifiledDate = ModifiledDate;
-            prddt.Status = Status;
+            prddt.Price = price;
+            prddt.Quantity = quantity;
+            prddt.Rating = rating;
+            prddt.Name = name;
+            prddt.Description = description;
+            prddt.CreatedDate = DateTime.Now;
+            prddt.ModifiledDate = DateTime.Now;
+            prddt.Status = true;
 
             return _crud.CreateItem(prddt);
 
         }
         [HttpPut("Update")]
-        public bool UpdateProductDetail(Guid id, Guid idSize, Guid idColor, Guid idProductCategory, Guid idProducer, Guid idProduct, decimal Price,
-            int Quantity, string Rating, string Name, string Description, DateTime CreatedDate, DateTime ModifiledDate, bool Status)
+        public bool UpdateProductDetail( Guid id,Guid idSize, Guid idColor, Guid idProductCategory, Guid idProducer, Guid idProduct, decimal price,
+            int quantity, string rating, string name, string description)
         {
             var prddt = _context.ProductDetails.FirstOrDefault(p => p.Id == id);
             if (prddt != null)
@@ -64,14 +71,13 @@ namespace AppAPI.Controllers
                 prddt.IdColor = idColor;
                 prddt.IdProductCategory = idProductCategory;
                 prddt.IdProducer = idProducer;
-                prddt.Price = Price;
-                prddt.Quantity = Quantity;
-                prddt.Rating = Rating;
-                prddt.Name = Name;
-                prddt.Description = Description;
-                prddt.CreatedDate = CreatedDate;
-                prddt.ModifiledDate = ModifiledDate;
-                prddt.Status = Status;
+                prddt.Price = price;
+                prddt.Quantity = quantity;
+                prddt.Rating = rating;
+                prddt.Name = name;
+                prddt.Description = description;
+                prddt.ModifiledDate= DateTime.Now;
+ 
                 return _crud.UpdateItem(prddt);
             }
             return false;

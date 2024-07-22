@@ -53,13 +53,14 @@ namespace AppAPI.Controllers
             return false;
         }
 
-        [HttpDelete("delete-image")]
+        [HttpPut("soft-delete-image")]
         public bool DeleteImage(Guid id)
         {
             var image = _context.Images.FirstOrDefault(y => y.Id == id);
             if (image != null)
             {
-                return _crud.DeleteItem(image);
+                image.Status = false;
+                return _crud.UpdateItem(image);
             }
             return false;
         }

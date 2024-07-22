@@ -11,7 +11,7 @@ namespace AppAPI.Controllers
     {
         ICRUDApi<ProductCatergory> _crud;
         TStoreDb _context = new TStoreDb();
-/*t*/
+
         public ProductCatergoryController()
         {
             CRUDApi<ProductCatergory> crud = new CRUDApi<ProductCatergory>(_context, _context.ProductCatergories);

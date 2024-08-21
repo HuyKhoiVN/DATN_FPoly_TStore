@@ -1,15 +1,14 @@
-﻿
-using AppData.Context;
+﻿using AppData.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppAPI.Service
+namespace AppData.Repositories
 {
-    public class CRUDApi<T> : ICRUDApi<T> where T : class
+    public class Repositories<T> : IRepositories<T> where T : class
     {
         TStoreDb _dbContext;
         DbSet<T> _dbSet;
 
-        public CRUDApi(TStoreDb dbContext, DbSet<T> dbSet)
+        public Repositories(TStoreDb dbContext, DbSet<T> dbSet)
         {
             _dbContext = dbContext;
             _dbSet = dbSet;
@@ -22,7 +21,8 @@ namespace AppAPI.Service
                 _dbSet.Add(item);
                 _dbContext.SaveChanges();
                 return true;
-            }catch (Exception)
+            }
+            catch (Exception)
             {
                 return false;
             }
@@ -35,7 +35,8 @@ namespace AppAPI.Service
                 _dbSet.Remove(item);
                 _dbContext.SaveChanges();
                 return true;
-            }catch(Exception)
+            }
+            catch (Exception)
             {
                 return false;
             }
@@ -46,7 +47,8 @@ namespace AppAPI.Service
             try
             {
                 return _dbSet.ToList();
-            }catch (Exception)
+            }
+            catch (Exception)
             {
                 return null;
             }
@@ -59,7 +61,8 @@ namespace AppAPI.Service
                 _dbSet.Update(item);
                 _dbContext.SaveChanges();
                 return true;
-            }catch( Exception )
+            }
+            catch (Exception)
             {
                 return false;
             }

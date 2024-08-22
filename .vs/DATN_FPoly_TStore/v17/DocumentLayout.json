@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\be_old\\datn_fpoly_tstore\\appapi\\repositories\\entityrepos\\cartrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\repositories\\entityrepos\\cartrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|d:\\huykhoi\\cs\\datn\\be_old\\datn_fpoly_tstore\\appapi\\repositories\\entityinterface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6385FB-8EE3-4853-B6C1-AEC80A8867A5}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\repositories\\entityinterface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\huykhoi\\cs\\datn\\be_old\\datn_fpoly_tstore\\appdata\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|d:\\huykhoi\\cs\\datn\\be_old\\datn_fpoly_tstore\\appdata\\models\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67C84BD-82F6-4F66-BE74-48C78F2F92EF}|AppData\\AppData.csproj|solutionrelative:appdata\\models\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartRepositories.cs",
-              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\Repositories\\EntityRepos\\CartRepositories.cs",
-              "RelativeDocumentMoniker": "AppAPI\\Repositories\\EntityRepos\\CartRepositories.cs",
-              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\Repositories\\EntityRepos\\CartRepositories.cs",
-              "RelativeToolTip": "AppAPI\\Repositories\\EntityRepos\\CartRepositories.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Title": "20240822110008_KhoiUpdateDB.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs",
+              "RelativeDocumentMoniker": "AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs",
+              "RelativeToolTip": "AppData\\Migrations\\20240822110008_KhoiUpdateDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:38:15.958Z",
+              "WhenOpened": "2024-08-22T11:00:08.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillDetail.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Models\\BillDetail.cs",
+              "RelativeDocumentMoniker": "AppData\\Models\\BillDetail.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Models\\BillDetail.cs",
+              "RelativeToolTip": "AppData\\Models\\BillDetail.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T10:47:42.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\Repositories\\EntityInterface\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "AppAPI\\Repositories\\EntityInterface\\ICartRepository.cs",
-              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\Repositories\\EntityInterface\\ICartRepository.cs",
-              "RelativeToolTip": "AppAPI\\Repositories\\EntityInterface\\ICartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "AppData\\Models\\Bill.cs",
+              "ToolTip": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\Models\\Bill.cs",
+              "RelativeToolTip": "AppData\\Models\\Bill.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:11:57.285Z"
+              "WhenOpened": "2024-08-22T10:47:20.764Z",
+              "EditorCaption": ""
             }
           ]
         }

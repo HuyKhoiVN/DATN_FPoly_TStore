@@ -7,10 +7,10 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TAccountController : TBaseController<Account>
+    public class ProductDetailController : TBaseController<ProductDetail>
     {
-        IBaseServices<Account> _services;
-        public TAccountController(IBaseServices<Account> baseServices) : base(baseServices)
+        IBaseServices<ProductDetail> _services;
+        public ProductDetailController(IBaseServices<ProductDetail> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

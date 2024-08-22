@@ -7,10 +7,10 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TRoleController : TBaseController<Role>
+    public class RoleController : TBaseController<Role>
     {
         IBaseServices<Role> _services;
-        public TRoleController(IBaseServices<Role> baseServices) : base(baseServices)
+        public RoleController(IBaseServices<Role> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

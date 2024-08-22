@@ -7,10 +7,11 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TNewsController : TBaseController<News>
+    public class ImageController : TBaseController<Image>
     {
-        IBaseServices<News> _services;
-        public TNewsController(IBaseServices<News> baseServices) : base(baseServices)
+        IBaseServices<Image> _services;
+
+        public ImageController(IBaseServices<Image> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

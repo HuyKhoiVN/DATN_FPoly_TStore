@@ -15,6 +15,25 @@ namespace AppData.Configurations
 		{
 			builder.HasKey(c => c.Id);
 			builder.HasOne<Account>(c => c.Account).WithMany(c => c.Address).HasForeignKey(c => c.IdAccount);
-		}
+
+            builder.Property(p => p.City)
+            .IsRequired()
+            .HasMaxLength(100);
+
+            builder.Property(p => p.District)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(p => p.Ward)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(p => p.DefaultAddress)
+                .IsRequired()
+                .HasMaxLength(200);
+
+            builder.Property(p => p.Status)
+                .IsRequired();
+        }
 	}
 }

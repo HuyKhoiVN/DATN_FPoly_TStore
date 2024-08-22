@@ -17,7 +17,15 @@ namespace AppData.Models
 		public ProductDetail? ProductDetail { get; set; }
 		public Guid IdBill { get; set; }            
         public Bill? Bill { get; set; }
+
+		/// <summary>
+		/// Số lượng sản phẩm
+		/// </summary>
 		public int Amount { get; set; }
+
+		/// <summary>
+		/// Giá sản phẩm TẠI THỜI ĐIỂM MUA HÀNG
+		/// </summary>
 		public Decimal Price { get; set; }
 		public Decimal Discount { get; set; }
 		public bool Status { get; set; }

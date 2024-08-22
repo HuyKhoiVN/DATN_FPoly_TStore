@@ -7,10 +7,10 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TBillController : TBaseController<Bill>
+    public class VoucherController : TBaseController<Voucher>
     {
-        IBaseServices<Bill> _services;
-        public TBillController(IBaseServices<Bill> baseServices) : base(baseServices)
+        IBaseServices<Voucher> _services;
+        public VoucherController(IBaseServices<Voucher> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

@@ -20,8 +20,8 @@ namespace AppData.Models
 		public Decimal SalePrice { get; set; }
 		public int ProductQuantity { get; set; }
 
-        public DateTime Create_date { get; set; }
-        public DateTime Update_date { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
 
     }
 }

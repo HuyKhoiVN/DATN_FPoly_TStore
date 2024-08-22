@@ -14,8 +14,8 @@ namespace AppData.Models
         public Guid IdAccount { get; set; }
         public Account? Account { get; set; }
 
-        public DateTime CreateDate { get; set; }
-        public DateTime UpdateDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
 
         public bool Status { get; set; }
 

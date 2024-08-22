@@ -21,6 +21,6 @@ namespace AppData.Models
         public DateTime ModifiledDate { get; set;}
         public bool Status { get; set; }
 
-        public ICollection<ProductDetail>? ProductDetails { get; set; }
+        public ICollection<Product>? Products { get; set; }
     }
 }

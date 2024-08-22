@@ -7,11 +7,11 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TImageController : TBaseController<Image>
+    public class PaymentMethodController : TBaseController<PaymentMethod>
     {
-        IBaseServices<Image> _services;
+        IBaseServices<PaymentMethod> _services;
 
-        public TImageController(IBaseServices<Image> baseServices) : base(baseServices)
+        public PaymentMethodController(IBaseServices<PaymentMethod> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

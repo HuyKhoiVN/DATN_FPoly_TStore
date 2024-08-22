@@ -12,7 +12,7 @@ namespace AppData.Models
         public Guid Id { get; set; }
         public string? ImageUrl { get; set; }
         public bool Status { get; set; }
-        public Guid IdPorductDetail { get; set; }
-        public ProductDetail? ProductDetail { get; set; }
+        public Guid IdPorduct { get; set; }
+        public Product? Product { get; set; }
     }
 }

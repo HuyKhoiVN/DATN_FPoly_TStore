@@ -15,8 +15,8 @@ namespace AppData.Models
 		public double Value { get; set; }
 		public int Quantity { get; set; }
 		public double DiscountAmount { get; set; }
-		public DateTime CreateDate { get; set; }
-		public DateTime UpdateDate { get; set; }
+		public DateTime CreatedDate { get; set; }
+		public DateTime ModifiedDate { get; set; }
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }
 		public bool Status { get; set; }

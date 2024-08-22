@@ -7,10 +7,10 @@ namespace AppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TCartDetailController : TBaseController<CartDetail>
+    public class ProducerController : TBaseController<Producer>
     {
-        IBaseServices<CartDetail> _services;
-        public TCartDetailController(IBaseServices<CartDetail> baseServices) : base(baseServices)
+        IBaseServices<Producer> _services;
+        public ProducerController(IBaseServices<Producer> baseServices) : base(baseServices)
         {
             _services = baseServices;
         }

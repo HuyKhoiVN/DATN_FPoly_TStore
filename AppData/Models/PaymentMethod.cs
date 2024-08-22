@@ -14,8 +14,8 @@ namespace AppData.Models
 	{
 		public Guid Id { get; set; }
 		public string Name { get; set; }
-		public DateTime CreateDate { get; set; }
-		public DateTime UpdateDate { get; set; }
+		public DateTime CreatedDate { get; set; }
+		public DateTime ModifiedDate { get; set; }
 		public string? CreateBy { get; set; }
 		public string? UpdateBy { get; set; }
 		public Decimal TotalMoney { get; set; }

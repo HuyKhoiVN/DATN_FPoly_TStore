@@ -15,10 +15,8 @@ namespace AppData.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.HasOne(x => x.Product).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdProduct);
-            builder.HasOne(x => x.Producer).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdProducer);
             builder.HasOne(x => x.Size).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdSize);
-            builder.HasOne(x => x.Color).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdColor);
-            builder.HasOne(x => x.ProductCatergory).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdProductCategory);
+            builder.HasOne(x => x.Color).WithMany(x => x.ProductDetails).HasForeignKey(x => x.IdColor);  
         }
     }
 }

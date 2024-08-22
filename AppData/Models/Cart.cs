@@ -19,6 +19,6 @@ namespace AppData.Models
 
         public bool Status { get; set; }
 
-        public ICollection<CartDetail> CartDetails { get; set; }
+        public ICollection<CartDetail>? CartDetails { get; set; }
     }
 }

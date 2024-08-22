@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj": {}
+    "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj": {}
   },
   "projects": {
-    "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj": {
+    "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
+        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
         "projectName": "AppAPI",
-        "projectPath": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
-        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppAPI\\obj\\",
+        "projectPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\AppData.csproj": {
-                "projectPath": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\AppData.csproj"
+              "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj": {
+                "projectPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj"
               }
             }
           }
@@ -83,21 +88,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\AppData.csproj": {
+    "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\AppData.csproj",
+        "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj",
         "projectName": "AppData",
-        "projectPath": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\AppData.csproj",
-        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyKhoi\\CS\\DATN\\Up_git\\DATN_FPoly_TStore\\AppData\\obj\\",
+        "projectPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,6 +114,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -159,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

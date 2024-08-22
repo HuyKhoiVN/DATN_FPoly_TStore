@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
     public class Role
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
         public bool Status { get; set; }
-        public ICollection<Account> Accounts { get; set; }
+        public ICollection<Account>? Accounts { get; set; }
     }
 }

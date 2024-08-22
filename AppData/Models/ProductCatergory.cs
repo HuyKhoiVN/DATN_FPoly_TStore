@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
     public class ProductCatergory
     {
         public Guid Id { get; set; }
@@ -17,6 +21,6 @@ namespace AppData.Models
         public DateTime ModifiledDate { get; set;}
         public bool Status { get; set; }
 
-        public ICollection<ProductDetail> ProductDetails { get; set; }
+        public ICollection<ProductDetail>? ProductDetails { get; set; }
     }
 }

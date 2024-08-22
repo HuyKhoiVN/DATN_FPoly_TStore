@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
-	public class BillDetail
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
+    public class BillDetail
 	{
 		public Guid Id { get; set; }
 		public Guid IdProductDetail { get; set; }

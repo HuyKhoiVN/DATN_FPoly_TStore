@@ -44,7 +44,7 @@ namespace AppData.Context
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-			optionsBuilder.UseSqlServer(@"Data Source=.\sqlexpress;Initial Catalog=T-Store;Persist Security Info=True;User ID=PH26922;Password=tri01637126999;Encrypt=False");
+			optionsBuilder.UseSqlServer(@"Data Source=HuyKhoiTUF\SQLEXPRESS;Initial Catalog=DB_DATN_TStore;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 		}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

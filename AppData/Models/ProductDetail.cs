@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
     public class ProductDetail
     {
         public Guid Id { get; set; }
@@ -28,9 +32,9 @@ namespace AppData.Models
         public DateTime ModifiledDate { get; set; }
         public bool Status { get; set; }
 
-        public ICollection<CartDetail> CartDetails { get; set; }
-        public ICollection<BillDetail> BillDetails { get; set; }
-        public ICollection<Image> Images { get; set; }
+        public ICollection<CartDetail>? CartDetails { get; set; }
+        public ICollection<BillDetail>? BillDetails { get; set; }
+        public ICollection<Image>? Images { get; set; }
 
     }
 }

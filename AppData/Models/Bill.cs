@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
-	public class Bill
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
+    public class Bill
 	{
 		public Guid Id { get; set; }
 		public int Code { get; set; }
@@ -27,8 +31,8 @@ namespace AppData.Models
 		public bool Status { get; set; }
 		public Account? Account { get; set; }
 		public PaymentMethod? PaymentMethod { get; set; }
-		public ICollection<BillDetail> BillDetails { get; set; }
-		public ICollection<Voucher> Vouchers { get; set; }
+		public ICollection<BillDetail>? BillDetails { get; set; }
+		public ICollection<Voucher>? Vouchers { get; set; }
 
 	}
 }

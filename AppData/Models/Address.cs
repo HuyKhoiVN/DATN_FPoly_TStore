@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppData.Models
 {
-	public class Address
+    /// <summary>
+    /// Cập nhật allow null cho các thuộc tính ICollection
+    /// </summary>
+    /// 21/08 - Khôi
+    public class Address
 	{
 		public Guid Id { get; set; }
 		public string City { get; set; }
@@ -15,6 +19,6 @@ namespace AppData.Models
 		public string DefaultAddress { get; set; }
 		public bool Status { get; set; }
 		public Guid IdAccount { get; set; }
-		public Account Account { get; set; }
+		public Account? Account { get; set; }
 	}
 }

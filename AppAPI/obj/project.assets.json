@@ -8274,24 +8274,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
+      "projectUniqueName": "D:\\DATN_T\\DATN_Git\\AppAPI\\AppAPI.csproj",
       "projectName": "AppAPI",
-      "projectPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\AppAPI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppAPI\\obj\\",
+      "projectPath": "D:\\DATN_T\\DATN_Git\\AppAPI\\AppAPI.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\DATN_T\\DATN_Git\\AppAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8306,8 +8301,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj": {
-              "projectPath": "D:\\HuyKhoi\\CS\\DATN\\BE_old\\DATN_FPoly_TStore\\AppData\\AppData.csproj"
+            "D:\\DATN_T\\DATN_Git\\AppData\\AppData.csproj": {
+              "projectPath": "D:\\DATN_T\\DATN_Git\\AppData\\AppData.csproj"
             }
           }
         }
@@ -8361,7 +8356,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

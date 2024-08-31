@@ -21,7 +21,8 @@ namespace AppData.Models
         public bool ResetTokenExperises { get; set; }
 
         public Guid IdRole { get; set; }
-        public Role? Role { get; set; }
+
+        public string? AvatarUrl {  get; set; }
 
         public DateTime Dob { get; set; }
         public string? Email { get; set; }
@@ -31,9 +32,12 @@ namespace AppData.Models
         public DateTime? ModifiedDate { get;set;}
 
         public bool Status { get; set; }
+        public Role? Role { get; set; }
+
         public ICollection<Address>? Address { get; set; }
         public ICollection<Cart>? Carts { get; set; }
         public ICollection<Bill>? Bills { get; set; }
+        public ICollection<RefreshToken>? RefreshTokens { get; set; }
 
     }
 }

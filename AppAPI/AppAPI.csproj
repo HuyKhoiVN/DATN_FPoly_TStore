@@ -19,9 +19,4 @@
     <ProjectReference Include="..\AppData\AppData.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Service\EntityInterface\" />
-    <Folder Include="Service\EntityServices\" />
-  </ItemGroup>
-
 </Project>

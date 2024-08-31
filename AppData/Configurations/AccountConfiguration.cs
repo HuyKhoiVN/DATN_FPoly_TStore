@@ -15,6 +15,7 @@ namespace AppData.Configurations
         {
             p.HasKey(p => p.Id);
 
+            // Cấu hình has one with many
             p.HasOne(p => p.Role)
              .WithMany(p => p.Accounts)
              .HasForeignKey(p => p.IdRole);
@@ -48,6 +49,7 @@ namespace AppData.Configurations
             p.Property(p => p.Status)
              .HasDefaultValue(true); // Đặt giá trị mặc định cho Status là true
 
+            // Cấu hình với table
             p.HasMany(p => p.Address)
              .WithOne(a => a.Account)
              .HasForeignKey(a => a.IdAccount);
@@ -59,6 +61,10 @@ namespace AppData.Configurations
             p.HasMany(p => p.Bills)
              .WithOne(b => b.Account)
              .HasForeignKey(b => b.IdAccount);
+
+            p.HasMany(p => p.RefreshTokens)
+            .WithOne(b => b.Account)
+            .HasForeignKey(b => b.AccountId);
         }
 
     }

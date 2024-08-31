@@ -1,35 +1,49 @@
-﻿using AppAPI.Repositories.EntityInterface;
+﻿using AppAPI.DtoModels;
+using AppAPI.Repositories.EntityInterface;
 using AppData.Context;
 using AppData.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 namespace AppAPI.Repositories.EntityRepos
 {
     public class CartRepositories : BaseRepository<Cart>, ICartRepository
     {
-        private readonly TStoreDb _dbContext;
+
         public CartRepositories(TStoreDb context) : base(context)
         {
-            _dbContext = context;
         }
 
-        public Task AddItemToCartAsync(Guid userId, CartDetail item)
+        public async Task<Cart> GetCartDetailsByAccountIdAsync(Guid accountId)
         {
-            throw new NotImplementedException();
+            var data = await _dbSet.Include(c => c.CartDetails).ThenInclude(cd => cd.ProductDetail).ThenInclude(pd => pd.Product).ThenInclude(p => p.Images)
+                             .Include(c => c.CartDetails).ThenInclude(cd => cd.ProductDetail).ThenInclude(pd => pd.Size)
+                             .Include(c => c.CartDetails).ThenInclude(cd => cd.ProductDetail).ThenInclude(pd => pd.Color)
+                             .Where(c => c.IdAccount == accountId).FirstOrDefaultAsync();
+            return data;
         }
 
-        public Task<Cart> GetCartByUserIdAsync(Guid userId)
+        /// <summary>
+        /// Tìm Cart theo accountId, nếu cart.CartDetails = null sẽ tạo mới
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns>
+        /// </returns>
+        public async Task<Cart> GetCartByUserIdAsync(Guid userId)
         {
-            throw new NotImplementedException();
+            // Sử dụng Eager Loading lấy ra Cart
+            var cart = await _dbSet.Include(c => c.CartDetails)
+                           .FirstOrDefaultAsync(c => c.IdAccount == userId);
+
+            // Xử lý null cho CartDetails
+            if (cart != null && cart.CartDetails == null)
+            {
+                cart.CartDetails = new List<CartDetail>();
+            }
+
+            return cart;
         }
 
-        public Task RemoveItemFromCartAsync(Guid userId, Guid productId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateItemQuantityAsync(Guid userId, Guid productId, int quantity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

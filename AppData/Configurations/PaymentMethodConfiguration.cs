@@ -14,6 +14,7 @@ namespace AppData.Configurations
 		public void Configure(EntityTypeBuilder<PaymentMethod> builder)
 		{
 			builder.HasKey(c => c.Id);
+			builder.HasMany(p => p.Bills).WithOne(p => p.PaymentMethod).HasForeignKey(p => p.IdPaymentMethod);
 		}
 	}
 }

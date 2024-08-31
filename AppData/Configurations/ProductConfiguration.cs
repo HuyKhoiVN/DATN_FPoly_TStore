@@ -16,6 +16,8 @@ namespace AppData.Configurations
             builder.HasKey(x => x.Id);
             builder.HasOne(x => x.Producer).WithMany(x => x.Products).HasForeignKey(x => x.IdProducer);
             builder.HasOne(x => x.ProductCatergory).WithMany(x => x.Products).HasForeignKey(x => x.IdProductCategory);
+            builder.HasMany(x => x.ProductDetails).WithOne(x => x.Product).HasForeignKey(x => x.IdProduct);
+            builder.HasMany(x => x.Images).WithOne(x => x.Product).HasForeignKey(x => x.IdPorduct);
 
             // Cấu hình chi tiết cho các property
 

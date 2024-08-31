@@ -15,6 +15,7 @@ namespace AppData.Configurations
         public void Configure(EntityTypeBuilder<Size> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.HasMany(x => x.ProductDetails).WithOne(x => x.Size).HasForeignKey(x => x.IdSize);
         }
     }
 }

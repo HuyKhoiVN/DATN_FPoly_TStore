@@ -16,6 +16,7 @@ namespace AppData.Configurations
         public void Configure(EntityTypeBuilder<Models.Color> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.HasMany(c => c.ProductDetails).WithOne(c => c.Color).HasForeignKey(x => x.IdColor);
         }
     }
 }

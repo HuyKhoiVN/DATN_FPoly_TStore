@@ -14,7 +14,7 @@ namespace AppData.Configurations
         public void Configure(EntityTypeBuilder<News> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.HasOne<Category>(x => x.Category).WithMany(x => x.News).HasForeignKey(x => x.IdCategory);
+            builder.HasOne(x => x.Category).WithMany(x => x.News).HasForeignKey(x => x.IdCategory);
         }
     }
 }

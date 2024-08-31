@@ -14,7 +14,8 @@ namespace AppData.Configurations
         public void Configure(EntityTypeBuilder<Cart> builder)
         {
             builder.HasKey(c => c.Id);
-            builder.HasOne<Account>(c => c.Account).WithMany(c => c.Carts).HasForeignKey(c => c.IdAccount);
+            builder.HasOne(c => c.Account).WithMany(c => c.Carts).HasForeignKey(c => c.IdAccount);
+            builder.HasMany(c => c.CartDetails).WithOne(c => c.Cart).HasForeignKey(c => c.IdCart);
         }
     }
 }

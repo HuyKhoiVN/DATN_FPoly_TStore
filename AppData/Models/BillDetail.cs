@@ -14,21 +14,26 @@ namespace AppData.Models
 	{
 		public Guid Id { get; set; }
 		public Guid IdProductDetail { get; set; }
-		public ProductDetail? ProductDetail { get; set; }
-		public Guid IdBill { get; set; }            
-        public Bill? Bill { get; set; }
+		public Guid IdBill { get; set; }
 
-		/// <summary>
-		/// Số lượng sản phẩm
-		/// </summary>
-		public int Amount { get; set; }
+        /// <summary>
+        /// Số lượng sản phẩm
+        /// </summary>
+        public int Amount { get; set; }
 
 		/// <summary>
 		/// Giá sản phẩm TẠI THỜI ĐIỂM MUA HÀNG
 		/// </summary>
 		public Decimal Price { get; set; }
+
+		/// <summary>
+		/// Số tiền giảm
+		/// </summary>
 		public Decimal Discount { get; set; }
 		public bool Status { get; set; }
+
+        public ProductDetail? ProductDetail { get; set; }
+        public Bill? Bill { get; set; }
 
     }
 }

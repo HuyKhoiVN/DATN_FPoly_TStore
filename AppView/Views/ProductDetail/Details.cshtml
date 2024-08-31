@@ -1,0 +1,49 @@
+﻿@model AppView.Models.ProductDetailDto
+
+<h2>@Model.Name</h2>
+
+<div>
+    <h4>Images:</h4>
+    @foreach (var image in Model.Images)
+    {
+        <img src="@image" alt="Product Image" style="max-width: 200px; margin-right: 10px;" />
+    }
+</div>
+
+<div>
+    <h4>Rating:</h4>
+    <p>@Model.Rating</p>
+</div>
+
+<div>
+    <h4>Price:</h4>
+    <p>@Model.Price</p>
+</div>
+
+<div>
+    <h4>Description:</h4>
+    <p>@Model.Description</p>
+</div>
+
+<div>
+    <h4>Details:</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Color</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detail in Model.Details)
+            {
+                <tr>
+                    <td>@detail.SizeName</td>
+                    <td>@detail.ColorName</td>
+                    <td>@detail.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

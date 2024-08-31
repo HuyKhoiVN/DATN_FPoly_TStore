@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppData.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -21,22 +22,15 @@ namespace AppData.Models
 		public string PhoneNumber { get; set; }
 		public string Address { get; set; }
 
-
 		public DateTime CreatedDate { get; set; }
 		public DateTime? ShipmentDate { get; set; }
 		public DateTime? PaymentDate { get; set; }
 
-		public bool PaymentStatus { get; set; }
-		public bool Status { get; set; }
-
-		// Không nhất thiết lưu trữ
-        public Decimal? TotalMoney { get; set; }
-        public Decimal? MoneyReduce { get; set; }
+		public EnumBillStatus BillStatus { get; set; }
 
         public Account? Account { get; set; }
 		public PaymentMethod? PaymentMethod { get; set; }
 		public ICollection<BillDetail>? BillDetails { get; set; }
 		public ICollection<Voucher>? Vouchers { get; set; }
-
 	}
 }

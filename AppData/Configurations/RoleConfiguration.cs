@@ -15,6 +15,7 @@ namespace AppData.Configurations
         public void Configure(EntityTypeBuilder<Role> builder)
         {
             builder.HasKey(c => c.Id);
+            builder.HasMany(x => x.Accounts).WithOne(x => x.Role).HasForeignKey(x => x.IdRole);
         }
     }
 }

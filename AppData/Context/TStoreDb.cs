@@ -50,6 +50,14 @@ namespace AppData.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            foreach (var item in modelBuilder.Model.GetEntityTypes())
+            {
+                var p = item.FindPrimaryKey().Properties.FirstOrDefault(i => i.ValueGenerated != Microsoft.EntityFrameworkCore.Metadata.ValueGenerated.Never);
+                if (p != null)
+                {
+                    p.ValueGenerated = Microsoft.EntityFrameworkCore.Metadata.ValueGenerated.Never;
+                }
+            }
         }
     }
 

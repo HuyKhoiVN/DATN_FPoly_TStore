@@ -6,8 +6,8 @@ namespace AppAPI.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        private readonly TStoreDb _dbContext;
-        private readonly DbSet<T> _dbSet;
+        protected readonly TStoreDb _dbContext;
+        protected readonly DbSet<T> _dbSet;
 
         public BaseRepository(TStoreDb context)
         {
@@ -52,7 +52,7 @@ namespace AppAPI.Repositories
                     }
 
                     // Set giá trị mặc định cho DateTime
-                    if ((propName == "CreateDate" || propName == "ModifiedDate") &&
+                    if ((propName == "CreatedDate" || propName == "ModifiedDate") &&
                         (prop.PropertyType == typeof(DateTime) || prop.PropertyType == typeof(DateTime?)))
                     {
                         prop.SetValue(entity, DateTime.Now);
@@ -105,9 +105,9 @@ namespace AppAPI.Repositories
 
                 return await _dbContext.SaveChangesAsync() > 0;
             }
-            catch
+            catch(Exception ex)
             {
-                return false;
+                throw new ValidateException(ex.Message);
             }
         }
 

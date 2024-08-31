@@ -14,7 +14,9 @@ namespace AppData.Configurations
 		public void Configure(EntityTypeBuilder<Address> builder)
 		{
 			builder.HasKey(c => c.Id);
-			builder.HasOne<Account>(c => c.Account).WithMany(c => c.Address).HasForeignKey(c => c.IdAccount);
+
+            // Cấu hình has one with many
+			builder.HasOne(c => c.Account).WithMany(c => c.Address).HasForeignKey(c => c.IdAccount);
 
             builder.Property(p => p.City)
             .IsRequired()

@@ -4,7 +4,7 @@ namespace AppAPI.Service
 {
     public class BaseServices<T> : IBaseServices<T> where T : class
     {
-        private readonly IBaseRepository<T> _repository;
+        protected readonly IBaseRepository<T> _repository;
 
         public BaseServices(IBaseRepository<T> repository)
         {
@@ -23,17 +23,24 @@ namespace AppAPI.Service
 
         public async Task<bool> CreateAsync(T entity)
         {
+            Validate(entity);
             return await _repository.CreateAsync(entity);
         }
 
         public async Task<bool> UpdateAsync(Guid entityId, T entity)
         {
+            Validate(entity, entityId);
             return await _repository.UpdateAsync(entityId, entity);
         }
 
         public async Task<bool> DeleteAsync(Guid id)
         {
             return await _repository.DeleteAsync(id);
+        }
+
+        protected virtual void Validate(T entity, Guid? entityId = null)
+        {
+
         }
     }
 

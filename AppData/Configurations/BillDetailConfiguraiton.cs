@@ -13,10 +13,9 @@ namespace AppData.Configurations
     {
         public void Configure(EntityTypeBuilder<BillDetail> builder)
         {
-            builder.HasKey(x => new {x.IdBill, x.IdProductDetail});
-            builder.HasOne<Bill>(x => x.Bill).WithMany(x => x.BillDetails).HasForeignKey(x => x.IdBill);
-            builder.HasOne<ProductDetail>(x => x.ProductDetail).WithMany(x => x.BillDetails).HasForeignKey(x => x.IdBill);
-            
+            builder.HasKey(x => x.Id);
+            builder.HasOne(x => x.Bill).WithMany(x => x.BillDetails).HasForeignKey(x => x.IdBill);
+            builder.HasOne(x => x.ProductDetail).WithMany(x => x.BillDetails).HasForeignKey(x => x.IdBill);         
         }
     }
 }

@@ -25,8 +25,10 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Account", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AvatarUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
@@ -85,7 +87,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Address", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("City")
@@ -124,12 +125,14 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Bill", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BillStatus")
+                        .HasColumnType("int");
 
                     b.Property<string>("Code")
                         .IsRequired()
@@ -144,14 +147,8 @@ namespace AppData.Migrations
                     b.Property<Guid>("IdPaymentMethod")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<decimal?>("MoneyReduce")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<DateTime?>("PaymentDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("PaymentStatus")
-                        .HasColumnType("bit");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -162,12 +159,6 @@ namespace AppData.Migrations
 
                     b.Property<DateTime?>("ShipmentDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
-
-                    b.Property<decimal?>("TotalMoney")
-                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -180,10 +171,7 @@ namespace AppData.Migrations
 
             modelBuilder.Entity("AppData.Models.BillDetail", b =>
                 {
-                    b.Property<Guid>("IdBill")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("IdProductDetail")
+                    b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Amount")
@@ -192,7 +180,10 @@ namespace AppData.Migrations
                     b.Property<decimal>("Discount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("IdBill")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("IdProductDetail")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Price")
@@ -201,7 +192,11 @@ namespace AppData.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
-                    b.HasKey("IdBill", "IdProductDetail");
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdBill");
+
+                    b.HasIndex("IdProductDetail");
 
                     b.ToTable("BillDetails");
                 });
@@ -209,7 +204,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Cart", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
@@ -233,16 +227,16 @@ namespace AppData.Migrations
 
             modelBuilder.Entity("AppData.Models.CartDetail", b =>
                 {
-                    b.Property<Guid>("IdCart")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("IdProductDetail")
+                    b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("IdCart")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("IdProductDetail")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("ModifiedDate")
@@ -257,7 +251,9 @@ namespace AppData.Migrations
                     b.Property<decimal>("SalePrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("IdCart", "IdProductDetail");
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdCart");
 
                     b.HasIndex("IdProductDetail");
 
@@ -267,7 +263,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Category", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
@@ -293,7 +288,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Color", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ColorName")
@@ -310,7 +304,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Image", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("IdPorduct")
@@ -332,7 +325,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.News", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Content")
@@ -363,7 +355,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.PaymentMethod", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("CreateBy")
@@ -399,7 +390,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Producer", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
@@ -419,7 +409,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Product", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Code")
@@ -478,7 +467,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.ProductCatergory", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("CreatedBy")
@@ -507,7 +495,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.ProductDetail", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
@@ -542,10 +529,44 @@ namespace AppData.Migrations
                     b.ToTable("ProductDetails");
                 });
 
+            modelBuilder.Entity("AppData.Models.RefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AccountId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("ExpiredAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("IssuedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("JwtId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccountId");
+
+                    b.ToTable("RefreshToken");
+                });
+
             modelBuilder.Entity("AppData.Models.Role", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
@@ -563,7 +584,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Size", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("SizeName")
@@ -580,7 +600,6 @@ namespace AppData.Migrations
             modelBuilder.Entity("AppData.Models.Voucher", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Code")
@@ -676,7 +695,7 @@ namespace AppData.Migrations
 
                     b.HasOne("AppData.Models.ProductDetail", "ProductDetail")
                         .WithMany("BillDetails")
-                        .HasForeignKey("IdBill")
+                        .HasForeignKey("IdProductDetail")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -783,6 +802,17 @@ namespace AppData.Migrations
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("AppData.Models.RefreshToken", b =>
+                {
+                    b.HasOne("AppData.Models.Account", "Account")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("AccountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Account");
+                });
+
             modelBuilder.Entity("AppData.Models.Voucher", b =>
                 {
                     b.HasOne("AppData.Models.Bill", "Bill")
@@ -801,6 +831,8 @@ namespace AppData.Migrations
                     b.Navigation("Bills");
 
                     b.Navigation("Carts");
+
+                    b.Navigation("RefreshTokens");
                 });
 
             modelBuilder.Entity("AppData.Models.Bill", b =>
